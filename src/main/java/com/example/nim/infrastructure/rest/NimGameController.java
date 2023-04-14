@@ -1,11 +1,11 @@
 package com.example.nim.infrastructure.rest;
 
+import com.example.nim.application.CPUPlayerFactory;
 import com.example.nim.application.CreateGameParameter;
 import com.example.nim.application.GameService;
 import com.example.nim.application.GameState;
 import com.example.nim.application.exceptions.NimGameNotFoundException;
 import com.example.nim.domain.CPUDifficulty;
-import com.example.nim.domain.CPUPlayerFactory;
 import com.example.nim.domain.GameId;
 import com.example.nim.domain.GameStatus;
 import com.example.nim.domain.exceptions.GameAlreadyEndedException;
